@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FilmLibrary</string>
+    <string name="about_button_title_support">Get support</string>
+    <string name="about_button_title_website">Go to website</string>
+    <string name="about_button_title_back">Go back</string>
+    <string name="film_list_button_watch_amovie">Watch Movie A</string>
+    <string name="film_list_button_watch_bmovie">Watch Movie B</string>
+    <string name="film_list_button_about">About</string>
+    <string name="about_textview_created_by">Created by Miguel Angel Lozano</string>
+    <string name="film_data_movie_data">Movie Data</string>
+    <string name="film_data_related_movie">Watch related movie</string>
+    <string name="film_data_edit_movie">Edit Movie</string>
+    <string name="film_data_go_back">Go back to main</string>
+    <string name="film_edit_save">Save</string>
+    <string name="film_edit_cancel">Cancel</string>
+    <string name="film_edit_editing">Editing Movie</string>
+</resources>
