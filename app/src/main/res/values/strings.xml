@@ -15,11 +15,12 @@
         <string name="film_data_imdb_movie">Ver en IMBD</string>
         <string name="film_data_edit_movie">Editar pelicula</string>
         <string name="film_data_go_back">Volver a la principal</string>
+
+
+    <!--edit film-->
         <string name="film_edit_save">Guardar</string>
         <string name="film_edit_cancel">Cancelar</string>
         <string name="film_edit_editing">Editando pelicula</string>
-
-    <!--edit film-->
         <string name="film_edit_button_take_snapshot">"Captura fotografía "</string>
         <string name="film_edit_button_select_image">Selecciona imagen</string>
         <string name="film_edit_title">Titulo de la película</string>
