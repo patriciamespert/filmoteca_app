@@ -1,17 +1,32 @@
 <resources>
-    <string name="app_name">Filmoteca</string>
-    <string name="about_button_title_support">Obtener soporte</string>
-    <string name="about_button_title_website">Ir al sitio web</string>
-    <string name="about_button_title_back">Volver</string>
-    <string name="film_list_button_watch_amovie">Ver Pelicula A</string>
-    <string name="film_list_button_watch_bmovie">Ver Pelicula B</string>
-    <string name="film_list_button_about">Acerca De</string>
-    <string name="about_textview_created_by">Creada por Miguel Angel Lozano</string>
-    <string name="film_data_movie_data">Datos de la pelicula</string>
-    <string name="film_data_related_movie">Ver pelicula relacionada</string>
-    <string name="film_data_edit_movie">Editar pelicula</string>
-    <string name="film_data_go_back">Volver a la principal</string>
-    <string name="film_edit_save">Guardar</string>
-    <string name="film_edit_cancel">Cancelar</string>
-    <string name="film_edit_editing">Editando pelicula</string>
+        <string name="app_name">Filmoteca</string>
+    <!--about film-->
+        <string name="about_button_title_support">Obtener soporte</string>
+        <string name="about_button_title_website">Ir al sitio web</string>
+        <string name="about_button_title_back">Volver</string>
+        <string name="film_list_button_watch_amovie">Ver Pelicula A</string>
+        <string name="film_list_button_watch_bmovie">Ver Pelicula B</string>
+        <string name="film_list_button_about">Acerca De</string>
+        <string name="about_textview_created_by">Creada por Miguel Angel Lozano</string>
+
+    <!--data film-->
+        <string name="film_data_movie_data">Datos de la pelicula</string>
+        <string name="film_data_related_movie">Ver pelicula relacionada</string>
+        <string name="film_data_imdb_movie">Ver en IMBD</string>
+        <string name="film_data_edit_movie">Editar pelicula</string>
+        <string name="film_data_go_back">Volver a la principal</string>
+        <string name="film_edit_save">Guardar</string>
+        <string name="film_edit_cancel">Cancelar</string>
+        <string name="film_edit_editing">Editando pelicula</string>
+
+    <!--edit film-->
+        <string name="film_edit_button_take_snapshot">"Captura fotografía "</string>
+        <string name="film_edit_button_select_image">Selecciona imagen</string>
+        <string name="film_edit_title">Titulo de la película</string>
+        <string name="film_edit_director">Nombre del director</string>
+        <string name="film_edit_year">Año</string>
+        <string name="film_edit_imdb">Enlace a IMDB</string>
+        <string name="film_edit_genre">Género</string>
+        <string name="film_edit_format">Formato</string>
+        <string name="film_edit_comment">Comentarios</string>
 </resources>

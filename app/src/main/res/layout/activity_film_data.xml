@@ -11,49 +11,106 @@
     tools:context="es.ua.eps.filmoteca.FilmDataActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/movieTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/film_data_movie_data"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        android:text="Regreso al futuro"
+        tools:text="Regreso al futuro" />
+
+    <TextView
+        android:id="@+id/movieDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieTitle"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        android:text="Director: Robert Zemeckis"
+        tools:text="Director: Robert Zemeckis" />
+
+    <TextView
+        android:id="@+id/movieYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieDirector"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        android:text="Año: 1985"
+        tools:text="Año: 1985" />
+
+
+    <TextView
+        android:id="@+id/movieGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieYear"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        android:text="Bluray, Sci-Fi"
+        tools:text="Bluray, Sci-Fi" />
+
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:src="@mipmap/ic_launcher"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bttf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
 
     <Button
-        android:id="@+id/btnWatchMovie"
+        android:id="@+id/btnWatchIMDB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
-        android:text="@string/film_data_related_movie"
-        app:layout_constraintEnd_toEndOf="@+id/btnEditMovie"
-        app:layout_constraintStart_toStartOf="@+id/btnEditMovie"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <Button
-        android:id="@+id/btnEditMovie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/film_data_edit_movie"
+        android:layout_marginTop="30dp"
+        android:text="@string/film_data_imdb_movie"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnWatchMovie" />
+        app:layout_constraintTop_toTopOf="@+id/movieGenre"
+        app:layout_constraintStart_toEndOf="@id/imageView" />
+
+    <TextView
+        android:id="@+id/movieVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        android:text="Versión extendida"
+        tools:text="Versión extendida" />
 
     <Button
         android:id="@+id/goBackMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/film_data_go_back"
-        app:layout_constraintEnd_toEndOf="@+id/btnEditMovie"
-        app:layout_constraintStart_toStartOf="@+id/btnEditMovie"
-        app:layout_constraintTop_toBottomOf="@+id/btnEditMovie" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnEditMovie"
+        app:layout_constraintTop_toBottomOf="@+id/movieVersion" />
+
+    <Button
+        android:id="@+id/btnEditMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/film_data_edit_movie"
+        app:layout_constraintStart_toEndOf="@+id/goBackMain"
+        app:layout_constraintTop_toBottomOf="@id/movieVersion"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

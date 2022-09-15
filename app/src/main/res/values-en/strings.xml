@@ -15,4 +15,14 @@
     <string name="film_edit_save">Save</string>
     <string name="film_edit_cancel">Cancel</string>
     <string name="film_edit_editing">Editing Movie</string>
+    <string name="film_data_imdb_movie">Watch on IMBD</string>
+    <string name="film_edit_button_take_snapshot">take snapshot</string>
+    <string name="film_edit_button_select_image">Choose image</string>
+    <string name="film_edit_title">Movie title</string>
+    <string name="film_edit_director">Editors Name</string>
+    <string name="film_edit_year">Year</string>
+    <string name="film_edit_imdb">Link to IMDB</string>
+    <string name="film_edit_genre">Genre</string>
+    <string name="film_edit_format">Format</string>
+    <string name="film_edit_comment">Comments</string>
 </resources>
